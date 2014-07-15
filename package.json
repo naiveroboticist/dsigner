@@ -1,23 +1,29 @@
 {
   "name": "dsigner",
-  "version": "0.1.0",
+  "version": "0.1.3",
   "description": "Tools to digially sign and verify messages.",
-  "main": "dsigner.js",
+  "main": "./lib/dsigner.js",
+  "engines": {
+    "node": ">=0.1.103"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/brentertz/scapegoat.git"
   },
   "bin": {
-    "dsigner": "replaceme.js"
+    "sign_message": "./bin/sign_message",
+    "verify_message": "./bin/verify_message"
   },
   "directories": {
     "test": "test"
   },
   "dependencies": {
+  },
+  "devDependencies": {
     "chai": "^1.9.1",
     "sinon": "^1.10.3"
+    "chai": "*",
   },
-  "devDependencies": {},
   "scripts": {
     "test": "mocha"
   },
