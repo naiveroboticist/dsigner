@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "description": "Tools to digially sign and verify messages.",
   "main": "dsigner.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/brentertz/scapegoat.git"
+  },
   "bin": {
     "dsigner": "replaceme.js"
   },
