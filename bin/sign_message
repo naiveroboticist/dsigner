@@ -1,0 +1,23 @@
+#!/bin/env node
+// -*- javascript -*-
+var dsigner = require('../lib/dsigner');
+
+var KEY_PATH = process.env.KEY_PATH;
+if (! KEY_PATH) {
+  console.error("KEY_PATH is not defined; don't know where to look for keys!");
+  process.exit(1);
+}
+// var KEY_PATH = "/home/dsieh/Projects/telep";
+
+if (process.argv.length > 3) {
+  var name = process.argv[2];
+  var message = process.argv[3];
+
+  var signature = dsigner.signMessageFor(KEY_PATH, name, message);
+
+  console.log("Message: " + message);
+  console.log("Signature: " + signature);
+} else {
+  console.error("Must specify name and message to sign");
+  process.exit(1);
+}

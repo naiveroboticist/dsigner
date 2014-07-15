@@ -1,0 +1,27 @@
+{
+  "name": "dsigner",
+  "version": "0.1.0",
+  "description": "Tools to digially sign and verify messages.",
+  "main": "dsigner.js",
+  "bin": {
+    "dsigner": "replaceme.js"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^1.9.1",
+    "sinon": "^1.10.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "signature",
+    "verify",
+    "message"
+  ],
+  "author": "Naive Roboticist",
+  "license": "MIT"
+}
