@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/brentertz/scapegoat.git"
+    "url": "git@github.com:naiveroboticist/dsigner.git"
   },
   "bin": {
     "sign_message": "./bin/sign_message",
@@ -22,7 +22,7 @@
   "devDependencies": {
     "chai": "^1.9.1",
     "sinon": "^1.10.3",
-    "chai": "*"
+    "mocha": "*"
   },
   "scripts": {
     "test": "mocha"
