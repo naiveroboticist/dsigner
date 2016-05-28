@@ -1,6 +1,6 @@
 {
   "name": "dsigner",
-  "version": "0.1.5",
+  "version": "0.2.0",
   "description": "Tools to digially sign and verify messages.",
   "main": "./lib/dsigner.js",
   "engines": {
@@ -17,8 +17,7 @@
   "directories": {
     "test": "test"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "chai": "^1.9.1",
     "sinon": "^1.10.3",
